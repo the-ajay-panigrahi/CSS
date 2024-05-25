@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+p {
+  color: red;
+  font-size: 32px;
+  font-weight: 700px;
+  /* text-decoration: underline wavy ; */
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 0, 238);
+  font-size: 50px;
+}
