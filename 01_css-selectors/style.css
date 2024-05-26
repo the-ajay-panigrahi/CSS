@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #000000;
+  text-align: center;
+  color: #fff;
+}
+
+ul {
+  font-weight: 900;
+  margin: 20px;
+}
+
+.html {
+  color: orangered;
+}
+
+.css {
+  color: blue;
+}
+
+.js {
+  color: yellow;
+}
+
+.react {
+  color: skyblue;
+}
+
+.tailwind {
+  color: steelblue;
+}
+
+#html {
+  font-size: 32px;
+}
+
+#css {
+  font-size: 32px;
+}
+
+#js {
+  font-size: 32px;
+}
+
+#react {
+  font-size: 32px;
+}
+
+#tailwind {
+  font-size: 32px;
+}
+
+[class] {
+  background-color: pink;
+}
+
+[class="html"] {
+  background-color: rgb(65, 7, 7);
+}
+
+ul p {
+  background-color: lightgreen;
+}
+
+h1:hover {
+  color: magenta;
+}
+
+p:hover {
+  font-size: 25px;
+  font-weight: 700;
+  color: red;
+  background-color: yellow;
+}
