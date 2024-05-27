@@ -1,0 +1,26 @@
+/* #html {
+  background-color: #000000;
+} */
+/* li {
+  background-color: #000000;
+} */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+ul {
+  font-size: 32px;
+  font-style: italic;
+  color: yellowgreen;
+}
+
+button {
+  font-size: inherit;
+  font-style: inherit;
+  color: inherit;
+}
