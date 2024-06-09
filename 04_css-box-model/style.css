@@ -1,18 +1,29 @@
-/* .parent {
+body {
+  height: 600px;
+}
+
+.parent {
   width: 800px;
-  height: 100px;
-} */
+  height: 50%;
+  background-color: #dc143c;
+  padding: 50px;
+}
 
 .one {
   background-color: orange;
-  max-width: 500px;
+  /* max-width: 500px; */
   padding: 20px;
-  /* max-width: 50%; */
-  min-height: 100px;
-  /* height: 50%; */
+  max-width: 50%;
+  /* min-height: 100px; */
+  height: 50%;
   /* word-break: break-all; */
   /* overflow: visible; */
   /* overflow: hidden; */
+}
+
+.one-child {
+  width: 50%;
+  height: 50%;
 }
 
 .two {
