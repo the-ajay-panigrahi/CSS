@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #414141;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+p {
+  width: 500px;
+  height: 200px;
+  background-color: orangered;
+  color: slateblue;
+  padding: 25px;
+  margin: 10px;
+  border: 5px solid #00d0ff;
+}
+
+.html {
+  width: 500px;
+  height: 200px;
+  background-color: rgb(0, 255, 4);
+  color: rgb(255, 0, 89);
+  padding: 25px;
+  margin: 10px;
+  border: 5px solid #00d0ff;
+  /* 
+  width and height does not work for inline elements.
+  padding, margin, border, outline....these work only for left and right side and not top and bottom.
+  */
+  /* display: inline; */
+  /* display: block; */
+  /* display: inline-block; */
+  display: none;
+}
+
+/* 
+        There are two types of inline elements: 
+        1) Replaced - Height and width works
+        2) Non Replaced - Height and width does not work
+*/
+
+video {
+  width: 300px;
+}
